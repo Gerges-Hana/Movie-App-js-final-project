@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_Form</title>
+    <link rel="stylesheet" href="css/style-reg.css">
+</head>
+<body>
+
+
+ <!-- sign form  -->
+
+ <div class="container">
+
+    <div class="icon">
+        <a href="../index.html">
+            <img src="images/cross.png" alt="">
+        </a>
+    </div>
+
+     <div class="" id="signForm">
+        <div class="">
+            <h1>Sign Up</h1>
+           
+                <input type="text" placeholder="Enter your name" id="signName"> <label class=" disHidden labelName" >your name have string and number </label><br><br>
+                <input type="email" placeholder="Enter your email" id="signEmail"><label class=" disHidden labelEmail">ex:gergeshana70@gmail.com </label><br><br>
+                <input type="password" placeholder="Enter your password" id="signPass"><label class=" disHidden labelPass">you have from 6 to 10 letters ex:AfsFF4556 </label><br><br>
+           
+            <p class="hidden" id="confirmSuccess">Success</p>
+            <p class="hidden" id="existAccount" >This Acount Is Already Exist </p>
+            <p class="hidden" id="confirmFailed">Sign up Failed ! please Try Again</p>
+            <p class="hidden" id="exist">All Input Filed is Required</p><br>
+            <a type="submit" class=""   onclick="SignUp();" id="btnSignup">Sign up</a>
+            <p class="check">You have an account? <button id="sign_In"><a href="login.html">Sign In</a> </button></p>
+ 
+ 
+           
+        </div>
+    </div>
+
+ </div>
+
+</body>
+<script  src="javascript/signForm.js"></script>
+</html>
